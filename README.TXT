@@ -57,4 +57,42 @@ Q47: No the balance does not change when there is an error message it stays 0.I 
  
  
  Q56: mean= total / count
+ 
+ 
+ 
+ Q58:I find it easier to understand when the budget shows 
+ up along with the message.
+ 
+ 
+ 
+ 
+ Q59: The second version,the balance is reset to 0,and then returned,for that
+ reason,no matter what the balance was initially,it will always return 0.
+ In the original version,the amountToRefund,becomes whatever the balance is.
+ Returning amountToRefund will always be correct because it has been already
+ assigned with the previous balance before reseting to 0.The test i did
+ to demonstrate that it does not give the same results:
+ With the original version,I inserted an amount of money.
+ I then checked my balance and and my balance was the same as what i inserted
+ I then called the  refundBalance method and it displayed my balance before refunding.
+ My balance was then 0.
+ 
+ 
+ Whilst the other version, directly displayed my new account balance ($0) 
+ while calling the refundBalance method.
 
+
+ Q60: It does not compile.Any statement that runs below any return statement,will be considered by the program as
+ an unreachable statement.
+
+ 
+ 
+ Q61: Yes it does compile.I noticed with the original version,our int price is shown on the
+ value of the price field (example:20)in the inspector,Whilst with the second version, the int price is set at 0,
+ even though that isn't the actual case.This happens because we already have a int price in the class.
+
+
+ 
+ 
+ 
+ 
