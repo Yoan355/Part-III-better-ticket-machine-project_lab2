@@ -32,4 +32,29 @@ Q47: No the balance does not change when there is an error message it stays 0.I 
  visible or invisible.
 
 
+ 
+ 
+ Q51: 
+ The price is included in the total to ensure that only the required
+ amount for one ticket is accounted for.It is then deducted from 
+ the balance so that the final charge reflects just the cost of a single ticket
+ 
+ 
+ 
+ Q52: Yes the code still compiles with no errors.Nothing happened because the else statement no longer tells you 
+ that I need to insert more money.
+ 
+ 
+ 
+ Q53: No it can't because we always have to insert
+ a positive amount greater than $0.
+ 
+ 
+ 
+ Q55:
+ saving = price * discount; 
+ 
+ 
+ 
+ Q56: mean= total / count
 
