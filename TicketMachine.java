@@ -29,7 +29,7 @@ public class TicketMachine
     }
 
     /**
-     * @Return The price of a ticket.
+     * @Return The price of a ticket test.
      */
     public int getPrice()
     {
